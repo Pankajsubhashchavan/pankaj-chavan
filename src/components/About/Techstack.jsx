@@ -10,8 +10,9 @@ import {
   DiGithubBadge
 
 } from "react-icons/di";
-import {
 
+import {
+  SiTypescript,
   SiFirebase,
   SiNextdotjs,
   SiRedux
@@ -23,6 +24,9 @@ function Techstack() {
 
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTypescript />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
