@@ -43,6 +43,9 @@ const Experience = () => {
                                 <li className="about-activity">
                                     <ImPointRight /> NodeJs
                                 </li>
+                                <li className="about-activity">
+                                    <ImPointRight /> Aws
+                                </li>
                             </ul>
                             <footer className="blockquote-footer">June-2022 to current</footer>
 
