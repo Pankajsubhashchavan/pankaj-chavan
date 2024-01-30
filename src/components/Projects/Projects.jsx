@@ -8,6 +8,7 @@ import flashcard from "../../Assets/Projects/flashcard.png";
 import crypto from "../../Assets/Projects/crypto.png";
 import myportfolio from "../../Assets/Projects/myportfolio.png";
 import getYTS from "../../Assets/Projects/getYTS.png";
+import proposeImg from "../../Assets/Projects/proposeapp.png";
 import myPlan from "../../Assets/Projects/myPlan.png";
 import ecom from "../../Assets/Projects/ecom.jpg";
 import textToVoice from "../../Assets/Projects/text-to-voice.png";
@@ -91,6 +92,16 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={proposeImg}
+              isBlog={false}
+              title="Propose App"
+              description="Propose - Just Do It. This App generates a lovely web template for couples who want to share their feelings with their special person. proposeme, propose girlfriend, propose my girlfriend, propose template, proposeme react js, tonmoydeb, tonmoydeb404, propose."
+              ghLink="https://github.com/panku-chavan/proposeme"
+              demoLink="https://pankaj-proposeme.netlify.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={calc}
               isBlog={false}
               title="Simple Calculator"
@@ -99,6 +110,7 @@ function Projects() {
               demoLink="https://panku-chavan.github.io/simple-calculator/"
             />
           </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={getYTS}
