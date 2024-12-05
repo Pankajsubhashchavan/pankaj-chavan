@@ -6,8 +6,7 @@ import {
   SiPostman,
   SiVercel,
 } from "react-icons/si";
-
-import { FaWindows, FaAws } from "react-icons/fa";
+import { FaWindows } from "react-icons/fa";
 
 function Toolstack() {
   return (
@@ -27,10 +26,7 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiVercel />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <FaAws />
-      </Col>
-
+      
     </Row>
   );
 }

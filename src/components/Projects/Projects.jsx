@@ -8,11 +8,12 @@ import flashcard from "../../Assets/Projects/flashcard.png";
 import crypto from "../../Assets/Projects/crypto.png";
 import myportfolio from "../../Assets/Projects/myportfolio.png";
 import getYTS from "../../Assets/Projects/getYTS.png";
-import proposeImg from "../../Assets/Projects/proposeapp.png";
 import myPlan from "../../Assets/Projects/myPlan.png";
 import ecom from "../../Assets/Projects/ecom.jpg";
 import textToVoice from "../../Assets/Projects/text-to-voice.png";
 import moviex from "../../Assets/Projects/moviex.png";
+import shoppo from "../../Assets/Projects/shoppo.png"
+import shopcart from "../../Assets/Projects/shopcart (1).png"
 
 function Projects() {
   return (
@@ -26,6 +27,26 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={shopcart}
+              isBlog={false}
+              title="ShopCart"
+              description="Developing a personal e-commerce application for practice, ShopCart, using Next.js for the frontend and Fakestore API for the backend. Utilized Tailwind CSS to create a responsive, mobile-friendly UI and implemented Redux Toolkit for efficient state management, ensuring a seamless user experience."
+              ghLink="https://github.com/panku-chavan/shopcart"
+              demoLink="https://shopcart-murex.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={shoppo}
+              isBlog={false}
+              title="ShopO"
+              description="A personal MERN stack project showcasing a fully functional ecommerce platform. Developed using React.js for the frontend,Node.js and Express.js for the backend, and MongoDB for the database. Implemented Stripe API for secure paymentprocessing. Styled using Tailwind CSS, ensuring a responsiveand modern UI. Integrated Redux Toolkit for efficient statemanagement and seamless user experience."
+              ghLink="https://github.com/panku-chavan/shopO"
+              demoLink="https://shop-o.onrender.com/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={crypto}
@@ -92,16 +113,6 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={proposeImg}
-              isBlog={false}
-              title="Propose App"
-              description="Propose - Just Do It. This App generates a lovely web template for couples who want to share their feelings with their special person. proposeme, propose girlfriend, propose my girlfriend, propose template, proposeme react js, tonmoydeb, tonmoydeb404, propose."
-              ghLink="https://github.com/panku-chavan/proposeme"
-              demoLink="https://pankaj-proposeme.netlify.app/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
               imgPath={calc}
               isBlog={false}
               title="Simple Calculator"
@@ -110,7 +121,6 @@ function Projects() {
               demoLink="https://panku-chavan.github.io/simple-calculator/"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={getYTS}

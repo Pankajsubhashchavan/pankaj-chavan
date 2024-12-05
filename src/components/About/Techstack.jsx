@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { TbBrandAngular } from "react-icons/tb";
+import { TbBrandAngular, TbBrandTypescript } from "react-icons/tb";
 
 import {
   DiJavascript1,
@@ -10,14 +10,13 @@ import {
   DiGithubBadge
 
 } from "react-icons/di";
-
 import {
-  SiTypescript,
+
   SiFirebase,
   SiNextdotjs,
-  SiRedux
+  SiRedux,
+  SiTypescript
 } from "react-icons/si";
-
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
@@ -26,7 +25,7 @@ function Techstack() {
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiTypescript />
+        <TbBrandTypescript />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
