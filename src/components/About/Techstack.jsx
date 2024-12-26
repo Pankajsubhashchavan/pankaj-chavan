@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { TbBrandAngular, TbBrandTypescript } from "react-icons/tb";
+import { TbBrandAngular } from "react-icons/tb";
 
 import {
   DiJavascript1,
@@ -15,8 +15,9 @@ import {
   SiFirebase,
   SiNextdotjs,
   SiRedux,
-  SiTypescript
+  SiTypescript 
 } from "react-icons/si";
+import { TbBrandTypescript } from "react-icons/tb";
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
