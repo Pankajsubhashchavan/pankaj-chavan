@@ -95,7 +95,7 @@ const Experience = () => {
                 </li>
               </ul>
               <footer className="blockquote-footer">
-                june-2022 to january-2023
+                june-2022 to january-2023 
               </footer>
             </div>
             <hr />
