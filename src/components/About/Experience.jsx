@@ -16,6 +16,42 @@ const Experience = () => {
           <blockquote className="blockquote mb-0">
             <div className="p-3">
               <p style={{ textAlign: "justify" }}>
+                <span className="purple"> </span>ReactJS Developer
+                <br />
+               <span className="purple">  <FaCode /> </span>Frontend Developer
+                <br />
+                
+                <span className="purple"><GiPostOffice />{" "}
+                  </span>Prominno Labs Private Limited, Pune
+                <br />
+                
+                <br />
+                Skills
+              </p>
+              <ul>
+                <li className="about-activity">
+                  <ImPointRight /> Javascript
+                </li>
+                <li className="about-activity">
+                  <ImPointRight /> Typescript
+                </li>
+                
+                <li className="about-activity">
+                  <ImPointRight /> ReactJs
+                </li>
+                <li className="about-activity">
+                  <ImPointRight /> Next.js
+                </li>
+                <li className="about-activity">
+                  <ImPointRight /> React Native
+                </li>
+              </ul>
+              <footer className="blockquote-footer">
+                February 2025 - current
+              </footer>
+            </div>
+            <div className="p-3">
+              <p style={{ textAlign: "justify" }}>
                 <span className="purple">Jr. </span>Software Engineer
                 <br />
                <span className="purple">  <FaCode /> </span>Frontend Developer
@@ -48,7 +84,7 @@ const Experience = () => {
                 </li>
               </ul>
               <footer className="blockquote-footer">
-                Junuary-2023 to current
+                Junuary 2023 - Junuary-2025
               </footer>
             </div>
 
