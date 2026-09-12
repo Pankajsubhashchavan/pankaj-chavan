@@ -6,6 +6,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 
 function Footer() {
   let date = new Date();
@@ -13,9 +14,11 @@ function Footer() {
   return (
     <Container fluid className="footer">
       <Row>
-       
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} pankaj_chavan</h3>
+          <h3>React & React Native Developer</h3>
+        </Col>
+        <Col md="4" className="footer-copywright">
+          <h3>Copyright © {year} Pankaj Chavan</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
@@ -25,18 +28,9 @@ function Footer() {
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
+                aria-label="github"
               >
                 <AiFillGithub />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://twitter.com/panku_chavan"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiOutlineTwitter />
               </a>
             </li>
             <li className="social-icons">
@@ -45,8 +39,31 @@ function Footer() {
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
+                aria-label="linkedin"
               >
                 <FaLinkedinIn />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="mailto:pankajchavan963@gmail.com"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+                aria-label="email"
+              >
+                <MdEmail />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://twitter.com/panku_chavan"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+                aria-label="twitter"
+              >
+                <AiOutlineTwitter />
               </a>
             </li>
             <li className="social-icons">
@@ -55,6 +72,7 @@ function Footer() {
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
+                aria-label="instagram"
               >
                 <AiFillInstagram />
               </a>

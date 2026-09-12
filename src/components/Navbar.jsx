@@ -14,7 +14,8 @@ import {
 
 import { CgFileDocument } from "react-icons/cg";
 import { TbCertificate } from "react-icons/tb";
-import profile from "../Assets/avatar.svg";
+import profile from "../Assets/profile.png";
+
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
