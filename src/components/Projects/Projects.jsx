@@ -22,16 +22,20 @@ const projectData = [
   {
     imgPath: searchnapply,
     title: "Searchandapply.io",
-    description:"SearchAndApply.io is an innovative job application platform designed to help users streamline their job search journey. With a user-friendly interface, job seekers can create personalized accounts, track applications, and receive expert guidance to land their dream jobs. SearchAndApply.io empowers you with the tools and insights needed to achieve your career goals efficiently.",
+    description:
+      "SearchAndApply.io is an innovative job application platform designed to help users streamline their job search journey. With a user-friendly interface, job seekers can create personalized accounts, track applications, and receive expert guidance to land their dream jobs.",
     ghLink: "https://github.com/panku-chavan/searchandapply",
     demoLink: "https://searchandapply.vercel.app/",
+    techStack: ["React.js", "TypeScript", "Tailwind CSS", "REST API", "Vercel"],
   },
   {
     imgPath: shopsy,
     title: "Shopsy",
-    description:"Shopsy is a frontend-only e-commerce application developed using React and Tailwind CSS. Instead of relying on external APIs, all product images are stored locally in the assets folder, ensuring a seamless and efficient browsing experience. The application showcases an elegant and responsive design, highlighting the power of modern web development tools.",
+    description:
+      "Shopsy is a frontend-only e-commerce application developed using React and Tailwind CSS. Instead of relying on external APIs, all product images are stored locally in the assets folder, ensuring a seamless and efficient browsing experience.",
     ghLink: "https://github.com/panku-chavan/shopsy",
     demoLink: "https://shopsy-ecru.vercel.app/",
+    techStack: ["React.js", "Tailwind CSS", "JavaScript", "Responsive UI"],
   },
   {
     imgPath: bulkemail,
@@ -40,6 +44,7 @@ const projectData = [
       "A full-featured MERN stack application engineered to automate and streamline sending personalized bulk email campaigns. Allows users to upload CSV contact lists and dispatch customized emails simultaneously with an intuitive, responsive dashboard interface.",
     ghLink: "https://github.com/panku-chavan/bulk-email-app-frontend",
     demoLink: "https://bulk-email-app-frontend.vercel.app/",
+    techStack: ["MERN Stack", "React.js", "Node.js", "Express.js", "MongoDB"],
   },
   {
     imgPath: shopcart,
@@ -48,6 +53,7 @@ const projectData = [
       "A modern e-commerce web application developed using Next.js and the Fakestore API. Features a fully responsive, mobile-first UI built with Tailwind CSS, along with robust centralized state management using Redux Toolkit for cart operations.",
     ghLink: "https://github.com/panku-chavan/shopcart",
     demoLink: "https://shopcart-murex.vercel.app/",
+    techStack: ["Next.js", "Redux Toolkit", "Tailwind CSS", "Fakestore API"],
   },
   {
     imgPath: shoppo,
@@ -56,6 +62,7 @@ const projectData = [
       "A comprehensive MERN stack e-commerce platform featuring React.js, Node.js, Express.js, and MongoDB. Integrates Stripe API for secure checkout, Tailwind CSS for modern responsive aesthetics, and Redux Toolkit for predictable cart and session management.",
     ghLink: "https://github.com/panku-chavan/shopO",
     demoLink: "https://shop-o.onrender.com/",
+    techStack: ["React.js", "Node.js", "Express.js", "MongoDB", "Stripe API", "Redux Toolkit"],
   },
   {
     imgPath: crypto,
@@ -64,6 +71,7 @@ const projectData = [
       "A crypto dashboard is a digital platform that lives on a website or an app (either desktop or mobile). Its primary function is to track your cryptocurrency accounts and coins and monitor their historical prices and current values so that you can manage both your crypto assets and related financial plans accordingly.",
     ghLink: "https://github.com/panku-chavan/crypto_dashboard",
     demoLink: "https://panku-chavan.github.io/crypto_dashboard/",
+    techStack: ["React.js", "Crypto APIs", "Chart.js", "CSS3"],
   },
   {
     imgPath: moviex,
@@ -72,6 +80,7 @@ const projectData = [
       "Displaying popular movies: When you visit the home page, the app sends a request to the TMDB API to fetch a list of popular movies. The response is then used to display the movie titles and overviews on the page. Browse popular movies: Users can visit the home page of the app to browse through a list of popular movies.",
     ghLink: "https://github.com/panku-chavan/MovieX",
     demoLink: "https://movie-x-nu.vercel.app/",
+    techStack: ["React.js", "TMDB API", "JavaScript", "Tailwind CSS"],
   },
   {
     imgPath: flashcard,
@@ -80,6 +89,7 @@ const projectData = [
       "This is a Single Page application created using ReactJs. All responsive design are developed using TailwindCss framework. React icons also used. In this app user can make a flashcard as per there information. This project has three pages CreateFlashcard, MyFlashcard and last FlashcardDetails Page.",
     ghLink: "https://github.com/panku-chavan/flashcard-generator",
     demoLink: "https://flashcard-generator-15e43.web.app//",
+    techStack: ["React.js", "Tailwind CSS", "Context API", "SPA"],
   },
   {
     imgPath: ecom,
@@ -88,6 +98,7 @@ const projectData = [
       "This is an e-commerce website. This is a Full stack web application or a MERN stack web application same as common e-commerce websites. In this app user can buy products online. This project also has admin as well as user dashboards, so shop owners who are admins can add products and categories. Both front and backend work properly.",
     ghLink: "https://github.com/panku-chavan/e-commerce-app-2023",
     demoLink: "https://ruby-tasty-coyote.cyclic.app/",
+    techStack: ["React.js", "Node.js", "Express.js", "MongoDB"],
   },
   {
     imgPath: resumeBuilder,
@@ -96,6 +107,7 @@ const projectData = [
       "In this app user can make their resume by simply adding their information and download their resume in PDF format. This is a simple react app. The whole app is developed with ReactJs, React hooks, Designed with React bootstrap, and manage the state using React Redux. This is also a Single Page application SPA.",
     ghLink: "https://github.com/panku-chavan/resume-builder",
     demoLink: "https://panku-chavan.github.io/resume-builder/",
+    techStack: ["React.js", "Redux", "React-Bootstrap", "PDF Export"],
   },
   {
     imgPath: myportfolio,
@@ -104,6 +116,7 @@ const projectData = [
       "This is my portfolio app. I made this app using create-react-app. I designed this app using the bootstrap framework. This is a responsive app. In this app, I tried to explain myself in brief. I have added my resume and all information about me. I added all my projects or recent work also.",
     ghLink: "https://github.com/panku-chavan/my-portfolio",
     demoLink: "https://panku-chavan.github.io/my-portfolio/",
+    techStack: ["React.js", "Bootstrap", "React Router", "CSS3"],
   },
   {
     imgPath: calc,
@@ -112,6 +125,7 @@ const projectData = [
       "This is a Simple React App. This is a plain CSS project. All Mathematical operations work properly. Simple Calculator helps users to calculate simple calculations with great speed and accessibility. This makes it the best solution for quick and simple calculations.",
     ghLink: "https://github.com/panku-chavan/simple-calculator",
     demoLink: "https://panku-chavan.github.io/simple-calculator/",
+    techStack: ["React.js", "CSS3", "JavaScript"],
   },
   {
     imgPath: getYTS,
@@ -120,6 +134,7 @@ const projectData = [
       "This is a node express app. This is an API to get YouTube subscribers details. There are four API endpoints in this app, '/ ' default route, '/subscribers' route , '/subscribers/names' route, '/subscribers/:id' route. for more details about this app please read the README.md.",
     ghLink: "https://github.com/panku-chavan/get-youtube-subscribers",
     demoLink: "https://get-youtube-subscribers-one.vercel.app/",
+    techStack: ["Node.js", "Express.js", "REST API", "MongoDB"],
   },
   {
     imgPath: myPlan,
@@ -128,6 +143,7 @@ const projectData = [
       "This is a mini project for creating our daily plans. Like what can I do today or something else. This is a Front-end project using react and bootstrap. This app is live on GitHub pages.",
     ghLink: "https://github.com/panku-chavan/my-plan",
     demoLink: "https://panku-chavan.github.io/my-plan/",
+    techStack: ["React.js", "Bootstrap", "Local Storage"],
   },
   {
     imgPath: textToVoice,
@@ -136,6 +152,7 @@ const projectData = [
       "This is a mini project for changing text to voice. Like user can enter any text, word, sentence and simply enter the speak button and listen to it and enjoy it. This app is live on GitHub pages.",
     ghLink: "https://github.com/panku-chavan/text-to-voice-converter",
     demoLink: "https://panku-chavan.github.io/text-to-voice-converter/",
+    techStack: ["JavaScript", "Web Speech API", "React.js"],
   },
 ];
 
@@ -160,6 +177,7 @@ function Projects() {
                 description={project.description}
                 ghLink={project.ghLink}
                 demoLink={project.demoLink}
+                techStack={project.techStack}
               />
             </Col>
           ))}
