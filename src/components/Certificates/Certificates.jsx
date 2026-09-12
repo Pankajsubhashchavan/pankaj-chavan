@@ -12,12 +12,12 @@ import fswd from "../../Assets/Cerificates/fswd.png";
 import fd from "../../Assets/Cerificates/frontend.jpg";
 
 const certificates = [
-  { title: "Fronend Development React Hackerrank", img: fd, link: "https://www.hackerrank.com/certificates/iframe/ede997426e1b" },
-  { title: "Full stack web development", img: fswd, link: "https://verified.sertifier.com/en/verify/37309545415262/" },
-  { title: "Javascript Basics", img: jsBasic, link: "https://www.hackerrank.com/certificates/iframe/4e7680f85a43" },
-  { title: "Javascript Intermediate", img: JsIntermediate, link: "https://www.hackerrank.com/certificates/iframe/c35ba335afd6" },
+  { title: "Frontend Development React - HackerRank", img: fd, link: "https://www.hackerrank.com/certificates/iframe/ede997426e1b" },
+  { title: "Full Stack Web Development - AlmaBetter", img: fswd, link: "https://verified.sertifier.com/en/verify/37309545415262/" },
+  { title: "JavaScript Basics - HackerRank", img: jsBasic, link: "https://www.hackerrank.com/certificates/iframe/4e7680f85a43" },
+  { title: "JavaScript Intermediate - HackerRank", img: JsIntermediate, link: "https://www.hackerrank.com/certificates/iframe/c35ba335afd6" },
   { title: "RPA Fundamental", img: rpa, link: "https://akademy.akabot.com/certificates/3c159bca0fa94503b162103b2780117a" },
-  { title: "React", img: react, link: "https://www.hackerrank.com/certificates/iframe/af94a5902369" },
+  { title: "React - HackerRank", img: react, link: "https://www.hackerrank.com/certificates/iframe/af94a5902369" },
 ];
 
 const Certificates = () => {
@@ -28,7 +28,7 @@ const Certificates = () => {
         <h1 className="project-heading">
           My <strong className="purple">Certificates </strong>
         </h1>
-        <p style={{ color: "white" }}>Here are a few certificates I've earn.</p>
+        <p style={{ color: "white" }}>Here are a few certificates I've earned.</p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           {certificates.map((certificate,index)=>(<Col key={index} md={6} className="project-card">
             <CertificateCard img={certificate.img} title={certificate.title} link={certificate.link}/>
